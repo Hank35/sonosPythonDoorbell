@@ -24,3 +24,7 @@ def ring():
     # doesnt seem to work if you stream from spotify yet.
     if initial_state != 'PLAYING':
                 device.pause()
+
+
+if __name__ == '__main__':
+    app.run(debug=True, port=1337, host='0.0.0.0')
